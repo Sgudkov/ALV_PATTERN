@@ -16,6 +16,9 @@
   lt_lines = VALUE #( BASE lt_lines ( line = |*-------------------------------------------------| ) ).
   lt_lines = VALUE #( BASE lt_lines ( line = |*Main class method for start: START_OF_SELECTION| ) ).
   lt_lines = VALUE #( BASE lt_lines ( line = |*-------------------------------------------------| ) ).
+  lt_lines = VALUE #( BASE lt_lines ( line = |*Create screnn 0100 with container name 'CONTAINER'| ) ).
+  lt_lines = VALUE #( BASE lt_lines ( line = |*Methods PAI/PBO must be called from the same screen's INCLUDES| ) ).  
+  lt_lines = VALUE #( BASE lt_lines ( line = |*-------------------------------------------------| ) ).  
   APPEND INITIAL LINE TO lt_lines.
   APPEND INITIAL LINE TO lt_lines.
 
