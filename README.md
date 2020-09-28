@@ -14,7 +14,7 @@
  
  ![alt text](https://github.com/Sgudkov/ALV_PATTERN/blob/master/FM_pattern.png)
  
- 4. Past code into your new FM from [link zalv_pattern](https://github.com/Sgudkov/ALV_PATTERN/blob/master/zalv_pattern).
+ 4. Past code into your new FM from [zalv_pattern](https://github.com/Sgudkov/ALV_PATTERN/blob/master/zalv_pattern).
  
  5. And now add your pattern. 
  
