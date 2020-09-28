@@ -66,7 +66,6 @@
   lt_lines = VALUE #( BASE lt_lines ( line = |METHOD start_of_selection.| ) ).
   lt_lines = VALUE #( BASE lt_lines ( line = |DATA(lt_bapiret) = check_exists( ).| ) ).
   lt_lines = VALUE #( BASE lt_lines ( line = |IF lt_bapiret IS NOT INITIAL.| ) ).
-  lt_lines = VALUE #( BASE lt_lines ( line = |NEW /virs/cl_loghelp( )->show_bal_log( lt_bapiret ).| ) ).
   lt_lines = VALUE #( BASE lt_lines ( line = |RETURN.| ) ).
   lt_lines = VALUE #( BASE lt_lines ( line = |ENDIF.| ) ).
   lt_lines = VALUE #( BASE lt_lines ( line = |process( ).| ) ).
