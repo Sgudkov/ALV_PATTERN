@@ -14,7 +14,7 @@
   lt_lines = VALUE #( BASE lt_lines ( line = |*##ALV_TYPES  - type( necessarily )| ) ).
   lt_lines = VALUE #( BASE lt_lines ( line = |*##ALV_STRUCT - global structure( necessarily )| ) ).
   lt_lines = VALUE #( BASE lt_lines ( line = |*-------------------------------------------------| ) ).
-  lt_lines = VALUE #( BASE lt_lines ( line = |*Main class method for start: PROCESS| ) ).
+  lt_lines = VALUE #( BASE lt_lines ( line = |*Main class method for start: START_OF_SELECTION| ) ).
   lt_lines = VALUE #( BASE lt_lines ( line = |*-------------------------------------------------| ) ).
   APPEND INITIAL LINE TO lt_lines.
   APPEND INITIAL LINE TO lt_lines.
@@ -154,10 +154,7 @@
   lt_lines = VALUE #( BASE lt_lines ( line = |ENDMETHOD.| ) ).
   APPEND INITIAL LINE TO lt_lines.
   lt_lines = VALUE #( BASE lt_lines ( line = |METHOD check_exists.| ) ).
-  lt_lines = VALUE #( BASE lt_lines ( line = |DATA(lo_log) = NEW /virs/cl_loghelp( ).| ) ).
   lt_lines = VALUE #( BASE lt_lines ( line = |##ERR_MESSAGE| ) ).
-  lt_lines = VALUE #( BASE lt_lines ( line = |lo_log->add_syst( ).| ) ).
-  lt_lines = VALUE #( BASE lt_lines ( line = |rt_bapiret = lo_log->get_log_tab( ).| ) ).
   lt_lines = VALUE #( BASE lt_lines ( line = |ENDMETHOD.| ) ).
   APPEND INITIAL LINE TO lt_lines.
   lt_lines = VALUE #( BASE lt_lines ( line = |METHOD process.| ) ).
