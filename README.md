@@ -1,2 +1,2 @@
 # ALV_PATTERN
- Useful FM-pattern for add local class to show alv
+ Useful FM-pattern for add local class to show alv.
